@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+
+*::-webkit-scrollbar {
+    width: 7px;
+  }
+
+*::-webkit-scrollbar-track {
+    background: #0b2948;        /* color of the tracking area */
+  }
+
+*::-webkit-scrollbar-thumb {
+    background-color: #071c2e;    /* color of the scroll thumb */
+    border-radius: 20px;       /* roundness of the scroll thumb */
+    border: 1px solid #0b2948;  /* creates padding around scroll thumb */
+  }  
+
+
+
+h2{
+    text-align: center;
+}
+
+.menu1{
+    margin-top: 0;
+    margin-bottom: 45px;
+    font-family: "Quicksand";
+    font-weight: 200;
+    color: #f3eff7;
+}
+
+
+.drawer .navi{
+    font-size: 12px;
+    font-family: "Quicksand";
+    font-weight: 600;
+    color: rgb(204, 198, 198);
+}
+
+.drawer .menu2{
+    font-size: 11px;
+    font-family: "Quicksand";
+    font-weight: 700;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    color: #b9acac;
+}
+
+.searcher .search{
+    font-family: "Quicksand";
+    font-size: 13px;
+    font-weight: 600;
+}
