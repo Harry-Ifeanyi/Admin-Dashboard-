@@ -15,13 +15,22 @@ let theme = createTheme({
             normal: grey[900]
 
         },
+
+        info: {
+            main: '#e7d1eb'
+        }
     },
 
     typography: {
         subtitle1: {
           fontFamily: 'Quicksand',
           fontWeight: 600,
-        },     
+        }, 
+        
+        h5: {
+            fontFamily: 'Poppins',
+            fontWeight: 600,
+        },
 
         subtitle2: {
             fontFamily: 'Quicksand',
@@ -33,10 +42,10 @@ let theme = createTheme({
             fontWeight: 600,
         },
 
-        myvariant1: {
+        caption: {
             fontFamily: 'Quicksand',
             fontWeight: 600,
-            fontSize: 13
+            
         }  
           
         
